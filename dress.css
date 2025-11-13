@@ -379,9 +379,9 @@ img{
     background-color: burlywood;
 }
 
-.video{
-    /* border: 1px solid red; */
-}
+/* .video{
+    border: 1px solid red;
+} */
 .video_image{
 /* border: 1px solid red; */
 position: relative;
@@ -579,9 +579,9 @@ position: relative;
     justify-content: center;
     gap: 26px;
 }
-.blog_fashion{
-     /* border: 1px solid green; */
-}
+/* .blog_fashion{
+     border: 1px solid green;
+} */
 .blog_para{
     padding: 20px 10px 25px 10px;
 }
@@ -696,16 +696,22 @@ position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .mail{
+
+    /* display: grid;
+    grid-template-rows: 40% 40%;
+    gap: 10px;
+    width: 50%; */
     display: flex;
     flex-direction: column;
  
-    min-width: 450px;
+   width: 40%;
     gap: 10px;
 }
 .your_email{
    padding: 6px 10px;
    border-radius: 5px;
    border: none;
+   outline: none;
 }
 .sign_up{
      padding: 6px 10px;
@@ -758,11 +764,26 @@ position: relative;
 @media screen and (max-width: 426px){
     .sign{
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 80%;
     }
-    .mail{
-        width: 100%;
-    }
+   .mail{
+    
+    width: 100%;
+    justify-content: center;
+   }
+   
+   .sign_title{
+    font-size: 25px;
+    text-align: center;
+     /* padding: 0px 50px; */
+   }
+   .insta{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    gap: 10px;
+   }
+   
 }
 
 
@@ -809,6 +830,17 @@ position: relative;
     font-family: verdana;
    line-height: 15px;
 }
+
+@media screen and (max-width:426px){
+    .kaira_end{
+        display: grid;
+        grid-template-columns: 88%;
+    }
+}
+
+
+
+
 
 
 
