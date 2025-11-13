@@ -831,11 +831,20 @@ position: relative;
    line-height: 15px;
 }
 
-@media screen and (max-width:426px){
+@media screen and (max-width: 426px){
     .kaira_end{
         display: grid;
         grid-template-columns: 88%;
     }
+}
+
+@media screen and (min-width: 426px) and (min-width: 768px){
+    .kaira_end{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 10%;
+        border: 1px solid red;
+    }
+    
 }
 
 
