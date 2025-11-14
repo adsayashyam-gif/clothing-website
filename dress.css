@@ -142,6 +142,17 @@ img{
     transform: 0.2s;
     scale: 1.1;
 }
+.photos{
+      overflow: hidden;
+}
+.photos img{
+   
+    transition: transform 0.2s ease 0.8s;
+}
+.photos img:hover{
+    transform: 0.2s;
+    scale: 1.1;
+}
 
 
 
@@ -426,17 +437,14 @@ img{
     justify-content: center;
     background-color: rgb(246, 246, 246);
     padding: 100px 0px;
+   
 }
-.winter_content{
-     /* border: 1px solid green; */
-   position: sticky;
-}
-.winter_content{
-    transition: transform 0.8s;
-}
-.winter_content:hover{
-    transform: scale(0.9);
-}
+/* .winter_content{
+     border: 1px solid green;
+  
+} */
+
+
 .winter_para{
      /* border: 1px solid green; */
      padding: 100px 30px 100px 30px;
@@ -455,13 +463,12 @@ img{
 .black_collection{
     color: white;
     background-color: black;
- 
+    border: none;
     padding: 10px 10px;
     border-radius: 10px;
 }
 .black_collection:hover{
-    border: none;
-    outline: none;
+
     background-color: burlywood;
 } 
 /* .object1{
@@ -578,13 +585,22 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-   transition: transform 0.8s;
 }
 .play img{
-    transform: rotate(21.3684deg);
+   
     width: 200px;
     height: 200px;
+       animation: rotateInfinite 12s  infinite;
 
+
+}
+@keyframes rotateInfinite{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .textrotation{
     animation: rotation 50s infinite linear;
@@ -1070,7 +1086,7 @@ position: relative;
 
 
 
-/* .item {
+.item {
 	animation: animate 50s linear infinite;
 }
 
@@ -1081,7 +1097,7 @@ position: relative;
 	100% {
 		transform: translate3d(-1800px, 0, 0);
 	}
-} */
+}
 
 
 
