@@ -9,9 +9,9 @@ img{
     height: 100%;
 }
 
-.common{
-    /* border: 1px solid red; */
-}
+/* .common{
+    border: 1px solid red;
+} */
 
 
 .kaira{
@@ -21,10 +21,10 @@ img{
     gap: 17%;
     
 }
-.kaira_content{
-      /* border: px solid red; */
+/* .kaira_content{
+      border: px solid red;
       
-}
+} */
 .name{
     color: black;
     font-size: 50px;
@@ -48,7 +48,7 @@ img{
 }
 
 .grid_down{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +57,11 @@ img{
     display: none;
 }
 .grid_photo{
-    border: 1px soid red;
+    /* border: 1px soid red; */
     width: 400px;
 }
 .grid_down2{
-     border: 1px soid red;
+     /* border: 1px soid red; */
     display: none;
 }
 /* .grid_photo2{
@@ -144,12 +144,19 @@ img{
 }
 
 
+
+
+
 @media screen and (max-width:768px){
     .grid_down{
         display: block;
     }
     .grid{
         display: none;
+    }
+    .photo img{
+        width: 60%;
+        /* object-fit: cover; */
     }
 }
 
@@ -333,26 +340,129 @@ img{
     padding: 10px 10px 10px 10px;
     margin: auto;
 }
+.girl{
+    display: none;
+}
+/* .hat{
+    border: 1px solid red;
+} */
 
-.winter_collection{
-    /* border: 1px solid red; */
+@media screen and (max-width: 426px){
+    .arrivals{
+        padding-top: 50px;
+    }
+    .new_arrivals{
+        font-size: 20px;
+    }
+    .view{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .view::before{
+        top: 30px;
+        width: 110px;
+    }
+    .girl{
+        display: block;
+        /* margin-bottom: 30px; */
+        
+    }
+    .hat{
+        display: none;
+    }
+    .view_para{
+        display: none;
+    }
+    .hat2{
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        
+       
+    }
+    
+    .view_para2{
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .arrivals{
+        padding-top: 50px;
+    }
+    .girl{
+        display: block;
+        /* margin-bottom: 30px; */
+        
+    }
+    .hat{
+        display: none;
+    }
+    .view_para{
+        display: none;
+    }
+    .hat2{
+        display: grid;
+        grid-template-columns: 60%;
+        justify-content: center;
+        
+       
+    }
+    
+    .view_para2{
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+}
+
+.winter{
+    border: 1px solid red;
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: center;
+    background-color: rgb(246, 246, 246);
+    padding: 100px 0px;
+}
+.winter_content{
+     border: 1px solid green;
+   
+}
+.winter_para{
+     border: 1px solid green;
+     padding: 100px 30px 40px 30px;
+}
+.classic_content{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* .winter_collection{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
    padding: 100px 0px;
     background-color: rgb(246, 246, 246);
 }
-.winter_sisters{
-      /* border: 1px solid green; */
+.winter_sisters img{
+      border: 1px solid green;
      overflow: hidden;
       transition: transform 0.8s;
 }
 
-.winter_sisters:hover{
+.winter_sisters img:hover{
    transform: scale(0.8)
 }
 .winter_para{
-      /* border: 1px solid green; */
+      border: 1px solid green;
       padding: 120px 50px 0px 50px;
     
 }
@@ -369,7 +479,7 @@ img{
 .black_collection{
     color: white;
     background-color: black;
-    /* height: 40px; */
+ 
     padding: 10px 10px;
     border-radius: 10px;
 }
@@ -377,11 +487,12 @@ img{
     border: none;
     outline: none;
     background-color: burlywood;
-}
-
-/* .video{
-    border: 1px solid red;
 } */
+
+.video{
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
 .video_image{
 /* border: 1px solid red; */
 position: relative;
@@ -655,9 +766,9 @@ position: relative;
 .logo img{
     height: 60px;
 }
-.logo{
-     /* border: 1px solid green; */
-}
+/* .logo{
+     border: 1px solid green;
+} */
 
 
 
@@ -732,9 +843,9 @@ position: relative;
     position: relative;
    
 }
-.image_insta{
-     /* border: 1px solid green; */
-}
+/* .image_insta{
+     border: 1px solid green;
+} */
 .insta_para{
      /* border: 1px solid green; */
      display: flex;
@@ -824,12 +935,16 @@ position: relative;
 
 }
 
+/* .kaira_end_content span{
+    border: 1px solid red;
+} */
 
 
 .quick_content{
     font-family: verdana;
    line-height: 15px;
 }
+
 
 @media screen and (max-width: 426px){
     .kaira_end{
@@ -841,12 +956,44 @@ position: relative;
 @media screen and (min-width: 426px) and (min-width: 768px){
     .kaira_end{
         display: grid;
-        grid-template-columns: 20% 20% 20% 10%;
-        border: 1px solid red;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: center;
+    }
+    .quick_content{
+        font-size: 10px;
     }
     
+    .end_para{
+          font-size: 10px;
+    }
+    .end_title{
+         font-size: 18px;
+    }
+    .kaira_end_content span{
+        font-size: 12px;
+    }
 }
 
+@media screen and (min-width: 768px) and (min-width: 1024px){
+      .kaira_end{
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        justify-content: center;
+        
+    }
+    .quick_content{
+        font-size: 12px;
+    }
+    .end_title{
+         font-size: 19px;
+    }
+    .end_para{
+          font-size: 12px;
+    }
+    .kaira_end_content span{
+        font-size: 14px;
+    }
+}
 
 
 
@@ -887,6 +1034,9 @@ position: relative;
     gap: 5px;
     padding-top: 10px;
 }
+.ship p{
+     font-size: 15px;
+}
 .ship img{
     padding-top: 2px;
     width: 30px;
@@ -894,4 +1044,74 @@ position: relative;
 }
 .ship_copy p{
     color: grey;
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width: 426px){
+    .ship{
+        padding-top: 10px;
+    }
+    .ship p{
+        font-size: 10px;
+    }
+    .ship_copy p{
+        font-size: 10px;
+    }
+    .ship_grid{
+      display: grid;
+      grid-template-columns: 90%;
+      
+    }
+    .ship img{
+    padding-top: 2px;
+    width: 20px;
+    height: 15px;
+}
+}
+
+@media screen and (min-width: 426px) and (min-width: 768px){
+    .ship{
+        padding-top: 10px;
+    }
+    .ship p{
+        font-size: 9px;
+    }
+    .ship_copy p{
+        font-size: 9px;
+    }
+     .ship_grid{
+      display: grid;
+      grid-template-columns: 40% 30%;
+      
+    }
+    .ship img{
+    padding-top: 2px;
+    width: 15px;
+    height: 12px;
+}
+}
+
+@media screen and (min-width: 768px) and (min-width: 1024px){
+    .ship{
+        padding-top: 10px;
+    }
+    .ship p{
+        font-size: 15px;
+    }
+    .ship_copy p{
+        font-size: 15px;
+    }
+     .ship_grid{
+      display: grid;
+      grid-template-columns: 40% 30%;
+      
+    }
+    .ship img{
+    padding-top: 2px;
+    width: 25px;
+    height: 25px;
+}
 }
