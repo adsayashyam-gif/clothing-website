@@ -1109,7 +1109,7 @@ position: relative;
 
 
 .item {
-	animation: animate 50s linear infinite;
+	animation: animate 10s linear infinite;
 }
 
 @keyframes animate {
