@@ -93,6 +93,14 @@ img{
     line-height: 25px;
 }
 
+@media screen and (max-width: 768px){
+    .new_title{
+        font-size: 50px;
+    }
+}
+
+
+
 
 .owl-item {width: 128.906px; margin-right: 10px;  }
 
@@ -166,7 +174,7 @@ img{
         display: none;
     }
     .photo img{
-        width: 60%;
+        width: 90%;
         /* object-fit: cover; */
     }
 }
@@ -358,7 +366,7 @@ img{
     border: 1px solid red;
 } */
 
-@media screen and (max-width: 426px){
+@media screen and (max-width:426px){
     .arrivals{
         padding-top: 50px;
     }
@@ -375,7 +383,7 @@ img{
     }
     .girl{
         display: block;
-        /* margin-bottom: 30px; */
+        
         
     }
     .hat{
@@ -386,7 +394,7 @@ img{
     }
     .hat2{
         display: grid;
-        grid-template-columns: 80%;
+        grid-template-columns: 90%;
         justify-content: center;
         
        
@@ -406,7 +414,7 @@ img{
     }
     .girl{
         display: block;
-        /* margin-bottom: 30px; */
+       
         
     }
     .hat{
@@ -417,7 +425,8 @@ img{
     }
     .hat2{
         display: grid;
-        grid-template-columns: 60%;
+        grid-template-columns: 80%;
+        
         justify-content: center;
         
        
@@ -439,10 +448,10 @@ img{
     padding: 100px 0px;
    
 }
-/* .winter_content{
+.winter_content{
      border: 1px solid green;
   
-} */
+}
 
 
 .winter_para{
@@ -480,7 +489,7 @@ img{
 
 @media screen and (max-width:426px){
     .winter{
-         display: grid;
+    display: grid;
     grid-template-columns: 80%;
     align-items: center;
     justify-content: center;
@@ -510,6 +519,8 @@ img{
          display: grid;
     grid-template-columns: 56% 42%;
 }
+
+
 }
 
 
@@ -628,8 +639,20 @@ position: relative;
     height: 100px;
 
 }
+.video{
+    margin-top: 60px;
 }
-
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+.video{
+    margin-top: 60px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.video{
+    margin-top: 60px;
+}
+}
 
 
 
