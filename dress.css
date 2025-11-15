@@ -1055,41 +1055,40 @@ position: relative;
 }
 
 
-@media screen and (max-width: 426px){
+/* @media screen and (max-width: 768px){
     .kaira_end{
         display: grid;
         grid-template-columns: 88%;
     }
-}
+    
+} */
 
-@media screen and (min-width: 426px) and (min-width: 768px){
+@media screen and (max-width: 768px){
     .kaira_end{
         display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
-        justify-content: center;
+        grid-template-columns: 88%;
+       
+       
     }
+    
+    
     .quick_content{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .end_para{
-          font-size: 10px;
+          font-size: 15px;
     }
     .end_title{
-         font-size: 18px;
+         font-size: 20px;
     }
     .kaira_end_content span{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 768px) and (min-width: 1024px){
-      .kaira_end{
-        display: grid;
-        grid-template-columns: 22% 22% 22% 22%;
-        justify-content: center;
-        
-    }
+     
     .quick_content{
         font-size: 12px;
     }
