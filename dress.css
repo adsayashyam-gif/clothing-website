@@ -292,7 +292,7 @@ img{
 .arrivals_content{
      /* border: 1px solid rgb(0, 255, 68); */
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      /* gap: 50%; */
      
 }
@@ -771,6 +771,8 @@ position: relative;
 .blog_title{
    font-size: 35px;
    font-weight: 600;
+   
+ 
 }
 
 .view_all{
@@ -798,6 +800,7 @@ position: relative;
     grid-template-columns: 32% 32% 32%;
     justify-content: center;
     gap: 26px;
+    margin-top: 20px;
 }
 /* .blog_fashion{
      border: 1px solid green;
@@ -865,7 +868,8 @@ position: relative;
 }
 
 .logo_five{
-    padding-top: 80px;
+    margin-top: 50px;
+    padding-top: 50px;
     /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 12% 12%  12% 12% 12%;
@@ -899,7 +903,7 @@ position: relative;
 
 
 .newsletter{
-    margin-top: 100px;
+    margin-top: 120px;
     background-color: rgb(241 241 240);
 }
 .sign{
@@ -1109,7 +1113,7 @@ position: relative;
 
 
 .item {
-	animation: animate 10s linear infinite;
+	animation: animate 15s linear infinite;
 }
 
 @keyframes animate {
