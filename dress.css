@@ -407,10 +407,11 @@ img{
     .view{
         font-size: 10px;
         padding-top: 10px;
+        
     }
     .view::before{
         top: 30px;
-        width: 110px;
+        width: 105px;
         
         
     }
@@ -864,8 +865,8 @@ position: relative;
     }
     .view_all::before{
          top: 30px;
-         width: 50px;
-        right: 5px;
+         width: 58px;
+        
     }
 }
 
