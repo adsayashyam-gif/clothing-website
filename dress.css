@@ -25,6 +25,8 @@ img{
       border: px solid red;
       
 } */
+
+
 .name{
     color: black;
     font-size: 50px;
@@ -35,11 +37,31 @@ img{
     gap: 50px;
     padding: 20px 0px;
 }
+.options span{
+    font-size: 10px;
+}
 .like{
     display: flex;
     gap: 20px;
     padding: 20px 0px;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+    .options{
+        display: none;
+    }
+    .like{
+        display: none;
+    }
+}
+
+
+
+
+
 
 .background{
     background-color: rgb(246, 246, 246);
@@ -174,7 +196,7 @@ img{
         display: none;
     }
     .photo img{
-        width: 90%;
+        width: 95%;
         /* object-fit: cover; */
     }
 }
@@ -379,7 +401,8 @@ img{
     }
     .view::before{
         top: 30px;
-        width: 110px;
+        width: 90px;
+       right: 10px;    
     }
     .girl{
         display: block;
@@ -394,7 +417,7 @@ img{
     }
     .hat2{
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 95%;
         justify-content: center;
         
        
@@ -828,7 +851,7 @@ position: relative;
     .blog_grid{
          display: grid;
     grid-template-columns: 95%;
-    margin-top: 25px;
+    margin-top: 30px;
     }
     .blog_title{
         font-size: 20px;
@@ -838,16 +861,18 @@ position: relative;
     }
     .view_all::before{
          top: 30px;
+         width: 50px;
+         right: 5px;
     }
 }
 
 
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (max-width: 768px){
     .date{
         font-size: 10px;
     }
     .date_title{
-         font-size: 13px;
+         font-size: 16px;
     }
     .date_para{
           font-size: 12px;
@@ -860,7 +885,7 @@ position: relative;
         font-size: 15px;
     }
     .date_title{
-         font-size: 16px;
+         font-size: 13px;
     }
     .date_para{
           font-size: 15px;
