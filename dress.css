@@ -411,7 +411,7 @@ img{
     }
     .view::before{
         top: 30px;
-        width: 105px;
+        width: 100px;
         
         
     }
@@ -865,7 +865,7 @@ position: relative;
     }
     .view_all::before{
          top: 30px;
-         width: 58px;
+         width: 55px;
         
     }
 }
