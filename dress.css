@@ -71,7 +71,7 @@ img{
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 426px){
     .options{
         display: none;
     }
@@ -103,6 +103,44 @@ img{
    .kaira{
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+   }
+   
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .options{
+        display: none;
+    }
+    .like{
+        display: none;
+    }
+
+     .menubar{
+                display: block;
+                padding-top: 25px;
+            }
+    .navmenus{
+                display: none;
+                position: absolute;
+                color: black;
+                left: 0;
+                width: 30%;
+             
+                top: 60px;
+                background-color: rgb(253, 251, 251);
+            }
+    #check:checked ~.navmenus{
+                display: block;
+            }
+            .like{
+                display: none;
+            }
+
+   .kaira{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
    }
    
 }
