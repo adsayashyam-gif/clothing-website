@@ -411,7 +411,7 @@ img{
     .view::before{
         top: 30px;
         width: 90px;
-       right: 10px;    
+       right: 12px;    
     }
     .girl{
         display: block;
@@ -865,7 +865,7 @@ position: relative;
     .view_all::before{
          top: 30px;
          width: 50px;
-         right: 5px;
+        right: 5px;
     }
 }
 
