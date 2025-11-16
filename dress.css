@@ -410,8 +410,9 @@ img{
     }
     .view::before{
         top: 30px;
-        width: 90px;
-       right: 12px;    
+        width: 110px;
+        
+        
     }
     .girl{
         display: block;
@@ -749,17 +750,16 @@ position: relative;
 
 @media screen and (max-width: 426px){
     .compliments{
-        display: grid;
-        grid-template-columns: 50%;
+        
          gap: 20px;
          padding: 70px 0px;
     }
     .compliment_title{
        
-        font-size: 10px;
+        font-size: 16px;
     }
     .compliment_para{
-          font-size: 20px;
+          font-size: 18px;
     }
     .compliment_up{
       
