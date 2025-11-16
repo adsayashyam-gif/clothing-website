@@ -13,9 +13,8 @@ img{
     border: 1px solid red;
 } */
 
-
 .kaira{
-    /* border: px solid red; */
+    border: px solid red;
     display: flex;
     justify-content: center;
     gap: 17%;
@@ -35,7 +34,7 @@ img{
 .options{
     display: flex;
     gap: 50px;
-    padding: 20px 0px;
+    padding: 30px 0px 0px 0px;
 }
 .options span{
     font-size: 10px;
@@ -43,13 +42,13 @@ img{
 .like{
     display: flex;
     gap: 20px;
-    padding: 20px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width:768px){
     .options{
         display: none;
     }
@@ -58,6 +57,16 @@ img{
     }
 }
 
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .kaira{
+        
+    }
+    
+    .options{
+        font-size: 15px;
+        gap: 10px;
+    }
+}
 
 
 
@@ -530,21 +539,17 @@ img{
 }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 1024px){
     .winter{
          display: grid;
     grid-template-columns: 90%;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-     .winter{
-         display: grid;
-    grid-template-columns: 56% 42%;
-}
 
 
-}
+
+
 
 
 
@@ -657,23 +662,21 @@ position: relative;
 
 @media screen and (max-width: 426px){
     .play img{
-    
-    width: 100px;
-    height: 100px;
+        width: 100px;
+        height: 100px;
+    }
+.video{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
 
-}
-.video{
-    margin-top: 60px;
-}
-}
-@media screen and (min-width: 426px) and (max-width: 768px){
-.video{
-    margin-top: 60px;
-}
-}
+
 @media screen and (min-width: 768px) and (max-width: 1024px){
 .video{
     margin-top: 60px;
+   
 }
 }
 
@@ -931,7 +934,59 @@ position: relative;
     margin-top: 120px;
     background-color: rgb(241 241 240);
 }
-.sign{
+
+.sign_grey{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0px 80px 0px;
+    gap: 50px;
+}
+.letters{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   gap: 10px;
+ 
+  
+}
+.id{
+    border-radius: 5px;
+     border: none;
+     outline: none;
+    padding: 10px 0px 10px 10px;
+}
+.up{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px 0px;
+}
+.up:hover{
+    background-color: rgb(190, 190, 182);
+}
+.up a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .sign_grey{
+        text-align: center;
+    }
+}
+
+
+/* .sign{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -946,10 +1001,7 @@ position: relative;
 }
 .mail{
 
-    /* display: grid;
-    grid-template-rows: 40% 40%;
-    gap: 10px;
-    width: 50%; */
+    
     display: flex;
     flex-direction: column;
  
@@ -970,7 +1022,13 @@ position: relative;
 }
 .sign_up:hover{
     background-color: rgb(190, 190, 182);
-}
+} */
+
+
+
+
+
+
 
 .insta{
     /* border: 1px solid red; */
@@ -1010,30 +1068,6 @@ position: relative;
 }
 
 
-@media screen and (max-width: 426px){
-    .sign{
-        display: grid;
-        grid-template-columns: 80%;
-    }
-   .mail{
-    
-    width: 100%;
-    justify-content: center;
-   }
-   
-   .sign_title{
-    font-size: 25px;
-    text-align: center;
-     /* padding: 0px 50px; */
-   }
-   .insta{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    gap: 10px;
-   }
-   
-}
 
 
 
